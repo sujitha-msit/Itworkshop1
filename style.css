@@ -47,3 +47,12 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
 }
+.potolioitem{
+    position: relative;
+
+}
+.portfolioimage{
+    height: 350px;
+    width:100%;
+    
+}
