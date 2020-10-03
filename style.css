@@ -47,38 +47,42 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
 }
-.potolioitem{
+.portolioitem{
     position: relative;
 
 }
 .portfolioimage{
-    height: cover;
+    height: 350px;
     width:100%;
-    background-size: cover;
+    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
-.portfoliotext
+.portfoliotext .logo
 {
-    position:absoulte;
+    position: absolute;
     top:0;
-    display: :flex;
+    display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
     height:100%;
-    text-align:center;
-    padding-left:100px;
-    padding-right:100px;
+    text-align:center; 
+   
 }
 .logo img
 {
     width:50%;
     margin-bottom:20px;
 }
-
-.portfolioimage:hover.subtitle{
+.portfoliotext .subtitle
+{
+    transition:1s;
+    font-weight:600;
+    color:transparent;
+}
+.portfoliotext:hover.subtitle{
     font-weight:600;
     color:lightseagreen;
 }
